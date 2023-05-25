@@ -47,27 +47,43 @@ main {
 
 }
 
-.misterio1 {
-  background-color: antiquewhite;
-  font-family: Times New Roman, Times, serif;
-  font-weight: 900;
+.newspaper {
+  background-color: rgb(250, 235, 215);
+  font-family: Times New Roman, serif;
+  font-weight: 700;
   font-size: 30px;
 }
 
-.misterio2 {
-  background-color: teal;
+.magazine1 {
+  background-color: rgb(0, 128, 128);
   color: white;
   font-family: Verdana, serif;
   font-weight: 900;
   text-transform: uppercase;
 }
 
-.misterio3 {
+
+.magazine2 {
   background-image: url('./images/pink-pattern.png');
-  color: black;
+  color: rgb(255, 0, 255);
   font-family: Verdana, serif;
   font-weight: 900;
   text-transform: uppercase;
+}
+
+.medium {
+  font-size: 20px;
+  padding: 8px;
+}
+
+.big {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.reallybig {
+  font-size: 40px;
+  padding: 15px;
 }
 
 .rotateleft {
@@ -83,5 +99,5 @@ main {
 }
 
 .skewright {
-  transform: skewY(10deg);
+  transform: skewX(-10deg);
 }
