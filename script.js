@@ -1,5 +1,6 @@
 const form = document.querySelector('#section-carta form');
 const pcarta = document.querySelector('#carta-gerada');
+const pCartaContador = document.querySelector('#carta-contador');
 
 const fundos = ['newspaper', 'magazine1', 'magazine2'];
 const tamanho = ['medium', 'big', 'reallybig'];
@@ -19,6 +20,7 @@ const generateRandomStyle = () => {
 
 const geraCartaMisteriosa = (frase) => {
   const arrayPalavras = frase.split(' ');
+
   pcarta.innerHTML = '';
   for (let index = 0; index < arrayPalavras.length; index += 1) {
     const estilos = generateRandomStyle();
@@ -33,6 +35,7 @@ const geraCartaMisteriosa = (frase) => {
 
     pcarta.appendChild(span);
   }
+  pCartaContador.innerText = arrayPalavras.length;
 };
 
 const formEvent = () => {

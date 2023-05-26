@@ -45,7 +45,11 @@ main {
   padding: 10px;
   cursor: pointer;
   margin: 0 5px;
+}
 
+.section-carta-contador {
+  text-align: center;
+  font-size: 25px;
 }
 
 .newspaper {
